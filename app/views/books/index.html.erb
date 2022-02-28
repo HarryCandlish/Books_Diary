@@ -5,11 +5,11 @@
     <th scope="col">Author</th>
     <th scope="col">Description</th>
     <th scope="col">Read</th>
-    <th scope="col">User ID</th>
   </tr>
 </thead>
 <tbody>
   <% @books.each do |book| %>
+    <% if book.user == current_user %>
     <tr>
       <td>
        <%= link_to book.title, book %>
@@ -21,11 +21,9 @@
         <td>
         <%= book.read %>
         </td>
-        <td>
-        <%= book.user_id %>
-        </td>
     </tr>
   </tbody>
+  <%end %>
 <% end %>
 </table>
 <br>

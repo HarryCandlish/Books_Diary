@@ -1,9 +1,9 @@
 class BooksController < ApplicationController
   before_action :set_book, only: %i[ show edit update destroy ]
 
-  before_action :authenticate_user!, except: [:index]
+  before_action :authenticate_user!, except: []
 
-  before_action :correct_user, only: [:show, :edit, :update, :destroy]
+  before_action :correct_user, only: [:books, :show, :edit, :update, :destroy]
   # GET /books or /books.json
   def index
     @books = Book.all
