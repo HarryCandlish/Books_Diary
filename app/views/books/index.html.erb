@@ -5,6 +5,7 @@
     <th scope="col">Author</th>
     <th scope="col">Description</th>
     <th scope="col">Read</th>
+    <th scope="col">User ID</th>
   </tr>
 </thead>
 <tbody>
@@ -20,7 +21,9 @@
         <td>
         <%= book.read %>
         </td>
-        
+        <td>
+        <%= book.user_id %>
+        </td>
     </tr>
   </tbody>
 <% end %>
