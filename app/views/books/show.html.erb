@@ -6,7 +6,9 @@
   <p class="lead">
     <%= @book.description %>  | 
     <%= @book.pages %>  |  
-    <%= @book.image %>
+    <div style="width: 200px: height:auto">
+    <%= image_tag(@book.image, style:'width:100%') %>
+    </div>
 
   </p>
   <br/>

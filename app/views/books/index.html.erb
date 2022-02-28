@@ -5,6 +5,7 @@
     <th scope="col">Author</th>
     <th scope="col">Description</th>
     <th scope="col">Read</th>
+    <th scope="col">Cover</th>
   </tr>
 </thead>
 <tbody>
@@ -20,6 +21,9 @@
         </td>
         <td>
         <%= book.read %>
+        </td>
+        <td>
+        <%= image_tag(book.image, style:'width:100%') %>
         </td>
     </tr>
   </tbody>
