@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: Lora;
 }
 
 .table_responsive {
@@ -19,7 +24,7 @@ table {
     border-collapse: collapse;
 }
 table>thead {
-    background-color: #00bcd4;
+    background-color: black;
     color: #fff;
 }
 table>thead th {
@@ -31,7 +36,7 @@ table td {
     padding: 10px 15px;
 }
 
-table>tbody>tr>td>img {
+table>tbody>tr>td> {
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -41,32 +46,26 @@ table>tbody>tr>td>img {
     box-shadow: 0 2px 6px #0003;
 }
 
-
-.action_btn {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.action_btn>a {
-    text-decoration: none;
-    color: #444;
-    background: #fff;
-    border: 1px solid;
+.cover_image {
     display: inline-block;
-    padding: 7px 20px;
-    font-weight: bold;
-    border-radius: 3px;
-    transition: 0.3s ease-in-out;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 6px #0003;
 }
-.action_btn>a:nth-child(1) {
-    border-color: #26a69a;
+
+.tick {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0 2px 6px #0003;
 }
-.action_btn>a:nth-child(2) {
-    border-color: orange;
-}
-.action_btn>a:hover {
-    box-shadow: 0 3px 8px #0003;
-}
+
+
 table>tbody>tr {
     background-color: #fff;
     transition: 0.3s ease-in-out;
@@ -78,3 +77,42 @@ table>tbody>tr:nth-child(even) {
 table>tbody>tr:hover{
     filter: drop-shadow(0px 2px 6px #0002);
 }
+
+.button-31 {
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lora";
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20vh;
+    text-decoration: none;
+  }
+  
+  .button-31:hover,
+  .button-31:focus {
+    opacity: .75;
+  }
+
+  .title_col {
+      text-decoration: none;
+      color: black;
+  }
