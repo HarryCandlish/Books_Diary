@@ -15,12 +15,12 @@
       <% link_to 'Books', books_path %>
     <tr>
     <td>
-    <%= image_tag(book.image, class:'cover_image') %>
+    <%= link_to image_tag(book.image, class:"cover_image"), book %>
     </td>
       <td>
        <%= link_to book.title, book, class:"title_col"%>
         <td>
-        <%= book.author %>
+        <%= link_to book.author, book, class:"title_col"%>
         </td>
         <td>
         <% if book.read === true %>

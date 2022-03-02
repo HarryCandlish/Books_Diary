@@ -116,3 +116,12 @@ table>tbody>tr:hover{
       text-decoration: none;
       color: black;
   }
+
+  .title_col {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.title_col:hover {
+	color: #718daa;
+}
