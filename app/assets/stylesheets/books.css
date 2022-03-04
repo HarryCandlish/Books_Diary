@@ -108,13 +108,16 @@ table>tbody>tr:hover{
     -webkit-user-select: none;
     touch-action: manipulation;
     width: 20vh;
+    font-family: lora;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 10px;
+	text-align: center;
     text-decoration: none;
+
   }
-  
-  .button-31:hover,
-  .button-31:focus {
-    opacity: .75;
-  }
+
+
 
   .title_col {
       text-decoration: none;
@@ -129,3 +132,12 @@ table>tbody>tr:hover{
 .title_col:hover {
 	color: #718daa;
 }
+
+.table_subtitle {
+	color: white;
+	font-family: lora;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 10px;
+	text-align: center;
+  }

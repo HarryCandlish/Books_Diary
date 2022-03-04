@@ -71,6 +71,18 @@
 	width: 100%;
   }
   
+  .info_input {
+	background-color: #dcdcdc;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: black;
+	font-size: 18px;
+	height: 100%;
+	outline: 0;
+	padding: 4px 20px 0;
+	width: 100%;
+  }
 
   
 
@@ -114,6 +126,12 @@
 	outline: 0;
 	text-align: center;
 	width: 100%;
+	color: black;
+	font-family: lora;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 10px;
+	text-align: center;
   }
   
   .submit:hover {
@@ -126,4 +144,33 @@
 
   .field {
 	  font-family: lora;
+  }
+
+  .image_input {
+	position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .file{
+	background-color: #dcdcdc;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: black;
+	font-size: 18px;
+	height: 100%;
+	outline: 0;
+	padding: 4px 20px 0;
+	width: 100%;
+  }
+
+  .file:hover {
+	background-color: #e5e4e2
   }

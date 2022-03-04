@@ -35,26 +35,15 @@ a {
 	margin-top: 5px;
 
 }
-.logo a,
-.main-nav a {
-	padding: 10px 15px;
-	text-transform: uppercase;
-	text-align: center;
-	display: block;
-}
 
-.main-nav a {
-	color: #34495e;
-	font-size: .99em;
-}
 
-.main-nav a:hover {
-	color: #718daa;
-}
+
+
 
 
 
 .header {
+	width: 100%;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	border: 1px solid #a2a2a2;
@@ -100,22 +89,8 @@ a {
 
 }
 
-.main-nav button {
-    color: #34495e;
-	font-size: .99em;
-}
 
-.main-nav button:hover {
-	color: #718daa;
-}
 
-.main-nav button {
-	padding: 10px 15px;
-	text-transform: uppercase;
-	text-align: center;
-	display: block;
-    border: none;
-}
 
 .book_image {
 	display: inline-block;
@@ -127,4 +102,13 @@ a {
 	left: 20px;
 	position: relative;
 }
+
+.nav-link {
+	color: black;
+	font-family: lora;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+  }
 

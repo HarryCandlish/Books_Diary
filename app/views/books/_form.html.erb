@@ -24,7 +24,7 @@
   <%= form.text_field :author, class:"input", placeholder:"Author" %>
   </div>
   <div class="input-container ic2">
-    <%= form.text_field :description, class:"input", placeholder:"Description" %>
+    <%= form.text_field :description, class:"info_input", placeholder:"Description" %>
   </div>
 
   <div class="input-container ic2">
@@ -36,10 +36,13 @@
   </div>
 
   <div class="input-container ic2">
-  <%= form.file_field :image, class:"input", placeholder:"Cover" %>
+  <div class="file">
+  <h2 class="subtitle">Upload Cover Image</h2>
+  <%= form.file_field :image, class:"image_input", placeholder:"Cover" %>
+</div>
 </div>
 
-
+<hr>
 
 
   <div>
@@ -47,8 +50,8 @@
   </div>
   <div>
   <br>
-  <%= link_to "Show Book", @book, class:"subtitle" %> |
-  <%= link_to "Back", books_path, class:"subtitle" %>
+  <%= link_to "Show Book", @book, class:"devise_links" %> |
+  <%= link_to "Back", books_path, class:"devise_links" %>
 </div>
 <% end %>
 </div>
