@@ -109,7 +109,7 @@ font-family: lora;
 }
 
 .btn:hover{transform: translateY(-6px);
-	background: #1a66ff;}
+	background: white;}
 
 .btn span {
 	font-family: 'Farsan', cursive;
