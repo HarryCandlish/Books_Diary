@@ -2,7 +2,7 @@
 
 
 .body {
-background: #CDCDCD;
+background: white;
 	background-attachment: fixed;	
 	background-size: cover;
   
@@ -14,9 +14,11 @@ background: #CDCDCD;
 	text-align: center;
 	border-radius: 5px;
 	overflow: hidden;
-	margin: 5em auto;
-	height: 75%;
-	width: 75%;
+	/* margin: 5em auto; */
+    position: relative;
+    left: 10%;
+	height: 100%;
+	width: 80%;
   
 	
 }
@@ -25,16 +27,28 @@ background: #CDCDCD;
 
 .product-details {
 	position: relative;
-	text-align: left;
 	overflow: hidden;
-	padding: 30px;
+	padding: 40px;
 	height: 100%;
 	float: left;
-	width: 40%;
+	width: 50%;
+    text-align: center;
 
 }
 
-#container .product-details h1{
+.product-details .book_title .book_author .information {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 40px;
+	height: 100%;
+	float: left;
+	width: 50%;
+    text-align: center;
+
+}
+
+#container .product-details {
 	font-family: 'lora', cursive;
 	display: inline-block;
 	position: relative;
@@ -44,7 +58,7 @@ background: #CDCDCD;
 	
 }
 
-#container .product-details h1:before{
+#container .product-details:before{
 	position: absolute;
 	content: '';
 	right: 0%; 
@@ -64,13 +78,10 @@ background: #CDCDCD;
 
 
 	
-
-
-
 #container .product-details > p {
-font-family: 'EB Garamond', serif;
+font-family: lora;
 	text-align: center;
-	font-size: 18px;
+	font-size: 14px;
 	color: #7d7d7d;
 	
 }
@@ -137,19 +148,19 @@ font-family: 'EB Garamond', serif;
 
 
 .product-image {
-	transition: all 0.3s ease-out;
 	display: inline-block;
 	position: relative;
-	overflow: hidden;
-	height: 100%;
+	height: 90%;
 	float: right;
-	width: 45%;
+	width: 50%;
 	display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
-#container img {width: 100%;height: 100%;}
+#container img {width: 90%;height: 90%;}
 
-.info {
+/* .info {
     background: rgba(27, 26, 26, 0.9);
     font-family: 'Bree Serif', serif;
     transition: all 0.3s ease-out;
@@ -164,7 +175,7 @@ font-family: 'EB Garamond', serif;
     width: 100%;
     left: 0;
     top: 0;
-}
+} */
 
 
 .info ul li{transition: 0.3s ease;}
@@ -172,8 +183,38 @@ font-family: 'EB Garamond', serif;
 
 .links_crud {
     font-size: 14px;
+    position: relative;
+    left: 5%;
+}
+
+.links_crud:hover {
+	color: #718daa;
 }
 
 .book_title {
     font-style: italic;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    left: 5%;
+}
+
+.book_author {
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    left: 5%;
+}
+
+.information {
+    text-align: center;
+    position: relative;
+    margin: none;
+    padding:none;
+    left: 5%;
+}
+
+.line {
+    position: relative;
+    left: 5%;
 }

@@ -57,12 +57,16 @@ table>tbody>tr>td> {
 }
 
 .tick {
-    display: inline-block;
+    display: block;
     width: 20px;
     height: 20px;
     object-fit: cover;
     border-radius: 100%;
     box-shadow: 0 2px 6px #0003;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 

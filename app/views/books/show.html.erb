@@ -2,20 +2,19 @@
 <body class="body">
 <div id="container">
   <div class="product-details">
-  <h1 class="book_title">
-    <%= @book.title %>
-    </h1>
-    <hr>
     <h1 class="book_author">
-    <%= @book.author %>
+      <%= @book.author %>
+    </h1>
+      <hr class="line">
+    <h1 class="book_title">
+     <%= @book.title %>
     </h1>
   <p class="information">
-    <%= @book.description %>  | 
-    <%= @book.pages %>  |  
+    <%= @book.description %> 
     </p>
-    <%= link_to 'Edit', edit_book_path(@book), class:"links_crud"%> |
-    <%= link_to 'Delete', @book, :method => :delete, class:"links_crud" %> |
-    <%= link_to 'Back', books_path, class:"links_crud" %> |
+    <%= link_to 'Edit', edit_book_path(@book), class:"links_crud"%>  
+    <%= link_to 'Delete', @book, :method => :delete, class:"links_crud" %>  
+    <%= link_to 'Back', books_path, class:"links_crud" %>  
     </div>
     <div class="product-image">
     <%= image_tag(@book.image, class:"product-image") %>
