@@ -1,15 +1,7 @@
 <%= stylesheet_link_tag 'forms.css' %>
-<div class="form_container">
 <br>
-<h1 class="edit_title">EDIT BOOK</h1>
 <br>
 
 <%= render "form", book: @book %>
 
 <br>
-
-<div>
-  <%= link_to "Show this book", @book %> |
-  <%= link_to "Back to books", books_path %>
-</div>
-</div>
