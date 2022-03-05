@@ -112,3 +112,6 @@ a {
 	text-decoration: none;
   }
 
+.nav-link:hover {
+	color:#bcd4e6;
+}
