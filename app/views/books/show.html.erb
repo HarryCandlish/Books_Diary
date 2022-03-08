@@ -12,6 +12,8 @@
   <p class="information">
     <%= @book.description %> 
     </p>
+    <%= @book.start %> 
+    <%= @book.complete %> 
     <%= link_to 'Edit', edit_book_path(@book), class:"links_crud"%> 
     <%= link_to 'Delete', @book, :method => :delete, class:"links_crud" %> 
     <%= link_to 'Back', books_path, class:"links_crud" %>  

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.about_title {
+	color: black;
+	font-family: lora;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+  }
+
+  .about_paragraph {
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .about_container {
+      width: 80%;
+      position: relative;
+      left:10%;
+  }
